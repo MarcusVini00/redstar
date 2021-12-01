@@ -255,7 +255,6 @@ input[type=text], select {
 }
 
 .background {
-
     width: 100%;
     text-align: center;
     margin-bottom: 150px;
@@ -335,6 +334,38 @@ input[type=text], select {
     box-shadow: 0 10px 20px rgb(0 0 0 / 75%);
     transition: .25s;
     background-color: .25s;
+}
+
+.background2 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#imagem-ps {
+    box-shadow: 0 10px 20px rgb(0 0 0 / 100%);
+}
+
+#texto-ps {
+    color: white;
+
+}
+
+#p-ps {
+    color: white;
+}
+
+#tabela-contato2 {
+    margin-top: 50px;
+    margin-bottom: 150px;
+    border-radius: 5px;
+    background-color: #111111;
+    padding: 20px;
+}
+
+#row-ps {
+    margin-top: 50px;
+    margin-left: 285px;
+    margin-bottom: 150px;
 }
 
 @media (max-width: 600px) {
